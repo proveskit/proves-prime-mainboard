@@ -2631,10 +2631,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6fbfa0d-3e8e-477b-8a6a-1ec8da0faf63")
 		(property "Reference" "J4"
-			(at 90.805 35.56 0)
+			(at 82.55 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2642,7 @@
 			)
 		)
 		(property "Value" "BM04B-SRSS-TB(LF)(SN)"
-			(at 90.805 38.1 0)
+			(at 71.628 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)

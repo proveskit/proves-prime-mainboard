@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "72240afe-a6ea-4a57-8b2c-63e0f64f2619")
+	(uuid "bc882677-2dbe-41d6-8125-cec45d0672d1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "+3V3_1"
@@ -5077,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 203.2 64.77)
+			(xy 203.2 53.34) (xy 203.2 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5177,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 39.37) (xy 200.66 40.64)
+			(xy 200.66 39.37) (xy 200.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5247,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 198.12 69.85)
+			(xy 198.12 53.34) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5277,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 39.37) (xy 198.12 40.64)
+			(xy 198.12 39.37) (xy 198.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5347,7 +5347,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 40.64) (xy 203.2 39.37)
+			(xy 203.2 43.18) (xy 203.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 205.74 62.23)
+			(xy 205.74 53.34) (xy 205.74 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5857,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 205.74 39.37)
+			(xy 205.74 43.18) (xy 205.74 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5927,7 +5927,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 50.8) (xy 200.66 67.31)
+			(xy 200.66 53.34) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7865,7 +7865,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 203.2 45.72 0)
+		(at 203.2 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7873,15 +7873,6 @@
 		(dnp no)
 		(uuid "251dbe8d-f141-4dbd-988d-28576400a8f3")
 		(property "Reference" "R3"
-			(at 208.28 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
 			(at 208.28 46.9899 0)
 			(effects
 				(font
@@ -7890,8 +7881,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10k"
+			(at 208.28 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 210.185 45.72 90)
+			(at 210.185 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 45.72 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +7909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 45.72 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
