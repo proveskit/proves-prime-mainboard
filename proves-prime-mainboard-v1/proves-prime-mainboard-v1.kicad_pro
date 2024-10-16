@@ -386,6 +386,30 @@
     [
       "6cfe8c53-6734-42c5-b115-bce78073d1a6",
       "Root"
+    ],
+    [
+      "b9e77bea-95cd-49e4-b487-cca512625802",
+      "RP2040 Core"
+    ],
+    [
+      "72daa1d6-f37c-4e73-8163-622b1549228d",
+      "Voltage Regs"
+    ],
+    [
+      "73cdcc12-a328-423c-bb4c-0d95d09a55c6",
+      " Power Management"
+    ],
+    [
+      "0c8740d0-ba25-4f55-b34e-1d4ad698df64",
+      "Radios"
+    ],
+    [
+      "f7b52907-fa50-474e-ac68-9bcb2a24a34e",
+      "Sensors"
+    ],
+    [
+      "4ee91ab0-bac4-4a10-ac76-19282ead91f9",
+      "Connectors"
     ]
   ],
   "text_variables": {}
