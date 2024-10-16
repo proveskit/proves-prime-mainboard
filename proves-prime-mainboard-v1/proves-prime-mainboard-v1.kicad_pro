@@ -405,7 +405,7 @@
     ],
     [
       "f7b52907-fa50-474e-ac68-9bcb2a24a34e",
-      "Sensors"
+      "Peripherals"
     ],
     [
       "4ee91ab0-bac4-4a10-ac76-19282ead91f9",
@@ -414,6 +414,10 @@
     [
       "ded12684-6472-4332-ac2b-a245bbb7447d",
       "Watchdog"
+    ],
+    [
+      "9404d5a6-7cfc-4af8-8c6f-e7f9ef2fc26b",
+      "RTC Backup"
     ]
   ],
   "text_variables": {}

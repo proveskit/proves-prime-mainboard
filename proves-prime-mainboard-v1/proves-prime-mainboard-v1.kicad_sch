@@ -263,8 +263,8 @@
 			(color 162 18 255 1.0000)
 		)
 		(uuid "f7b52907-fa50-474e-ac68-9bcb2a24a34e")
-		(property "Sheetname" "Sensors"
-			(at 138.176 113.284 0)
+		(property "Sheetname" "Peripherals"
+			(at 135.636 113.792 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -275,7 +275,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensors.kicad_sch"
+		(property "Sheetfile" "peripherals.kicad_sch"
 			(at 127 123.7746 0)
 			(effects
 				(font
