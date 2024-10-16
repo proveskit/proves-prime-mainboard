@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "88f6fc97-3923-47df-b93b-3522c1cb6da2")
+	(uuid "865f3227-d093-4bfd-b05a-452f8769bdfd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "+3V3_1"
@@ -4830,13 +4830,19 @@
 		(uuid "07fee034-a77b-4951-8553-0fd52474c0b4")
 	)
 	(junction
+		(at 63.5 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e32ba65-9cad-4e78-8fd9-a9fbef51208c")
+	)
+	(junction
 		(at 85.09 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eb8fde2-c3fb-4c55-985e-0e26c127f3c9")
 	)
 	(junction
-		(at 62.23 69.85)
+		(at 66.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d3af98-04b8-4806-b078-b0867ec991d2")
@@ -4848,13 +4854,13 @@
 		(uuid "277581fa-c149-4e65-8178-119f7c6ba1cb")
 	)
 	(junction
-		(at 59.69 80.01)
+		(at 63.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3366dd38-32e0-4969-adc6-c6ab12c62b70")
 	)
 	(junction
-		(at 59.69 69.85)
+		(at 63.5 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3df32f39-9987-4855-a2b9-75ef4d925c0d")
@@ -4864,12 +4870,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48b31611-01d8-47c9-b582-4e603fb71db2")
-	)
-	(junction
-		(at 59.69 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "591fead1-c1a2-47fe-9e05-d2f317bc00f2")
 	)
 	(junction
 		(at 80.01 123.19)
@@ -4987,6 +4987,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 135.89) (xy 233.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d9c685-c390-42ac-b22f-0c219f5e8f13")
+	)
+	(wire
+		(pts
 			(xy 179.07 57.15) (xy 186.69 57.15)
 		)
 		(stroke
@@ -5077,7 +5087,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 59.69 80.01)
+			(xy 233.68 115.57) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f81d566-3233-49b8-a47d-1cdfb958ec9f")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5177,7 +5197,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 59.69 80.01)
+			(xy 66.04 80.01) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5197,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 59.69 69.85)
+			(xy 63.5 59.69) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5257,16 +5277,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 186.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9ae394-7f39-46b4-b62c-632625a84e28")
-	)
-	(wire
-		(pts
 			(xy 198.12 39.37) (xy 198.12 40.64)
 		)
 		(stroke
@@ -5297,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 59.69 59.69)
+			(xy 54.61 59.69) (xy 63.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5347,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 186.69 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eee8f33-0d89-4859-86bc-c6f4b3d37dbb")
-	)
-	(wire
-		(pts
 			(xy 85.09 69.85) (xy 85.09 67.31)
 		)
 		(stroke
@@ -5377,6 +5377,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 138.43) (xy 201.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6506398d-74be-4031-bb3e-e282322e2b0b")
+	)
+	(wire
+		(pts
 			(xy 186.436 90.17) (xy 179.07 90.17)
 		)
 		(stroke
@@ -5387,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 125.222) (xy 223.52 127.762)
+			(xy 223.52 125.73) (xy 223.52 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5477,16 +5487,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 186.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5d8f1c-6f0a-4308-8010-e8796dd55d59")
-	)
-	(wire
-		(pts
 			(xy 26.67 78.74) (xy 26.67 82.55)
 		)
 		(stroke
@@ -5507,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 62.23 69.85)
+			(xy 63.5 69.85) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5657,16 +5657,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 85.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fce050-b2d9-4653-b79f-d282f9b37452")
-	)
-	(wire
-		(pts
 			(xy 100.33 77.47) (xy 100.33 80.01)
 		)
 		(stroke
@@ -5684,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "a863488d-35e2-44ee-ac8c-edee0a01800d")
-	)
-	(wire
-		(pts
-			(xy 179.07 74.93) (xy 186.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94ffa1c-934a-4a2b-8341-f5bf2f656f33")
 	)
 	(wire
 		(pts
@@ -5747,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 135.382) (xy 223.52 137.922)
+			(xy 223.52 135.89) (xy 223.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5827,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.062) (xy 223.52 109.982)
+			(xy 223.52 115.57) (xy 223.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6047,6 +6027,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 125.73) (xy 233.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f862067e-7446-4edd-82aa-0d28205e0068")
+	)
+	(wire
+		(pts
+			(xy 210.82 138.43) (xy 210.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87518c9-923f-428c-b4a9-922fac99ba9c")
+	)
+	(wire
+		(pts
 			(xy 74.93 125.73) (xy 102.87 125.73)
 		)
 		(stroke
@@ -6085,6 +6085,16 @@
 		)
 		(uuid "ff50a9f7-0b61-4c75-a1bb-cd86e416d689")
 	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 85.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc28f3e-9016-41c9-9c91-c44b76f9f641")
+	)
 	(text "Flash Memory"
 		(exclude_from_sim no)
 		(at 53.594 116.84 0)
@@ -6098,7 +6108,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 62.992 65.024 0)
+		(at 66.802 65.024 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -6251,7 +6261,7 @@
 		(uuid "d61c40b0-1819-43fd-867f-0d6f5d0d7dd3")
 	)
 	(label "~{RESET}"
-		(at 59.69 69.85 90)
+		(at 63.5 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6339,28 +6349,6 @@
 		(uuid "0c97245b-c54e-4b4f-8599-30849c23c8ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 192.8842 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_RESET {slash} VS"
-		(shape output)
-		(at 186.69 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10f99e1b-44f8-4db2-9c5a-23dc2a378f8e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.9566 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,50 +6556,6 @@
 			)
 		)
 	)
-	(global_label "VBUS_RESET {slash} D4"
-		(shape output)
-		(at 186.69 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88c12672-141c-47ed-b91d-8879bdd2093f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9523 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BURN_RELAY_A {slash} D5"
-		(shape output)
-		(at 186.69 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d09818a-4694-460c-a39a-0fa5d8f6179f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1901 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI0_CS1"
 		(shape output)
 		(at 102.87 105.41 180)
@@ -6768,7 +6712,7 @@
 	)
 	(global_label "FC_RESET"
 		(shape bidirectional)
-		(at 49.53 59.69 180)
+		(at 54.61 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6778,7 +6722,7 @@
 		)
 		(uuid "e7dd72b7-d6b4-4036-b82d-0179fd67c3e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.4416 59.69 0)
+			(at 41.5216 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,28 +6776,6 @@
 			)
 		)
 	)
-	(global_label "ENABLE_BURN {slash} PC"
-		(shape output)
-		(at 186.69 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4e7d700-b831-4442-899c-8f85267f2daf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.5853 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RF1_IO0"
 		(shape bidirectional)
 		(at 179.07 120.65 0)
@@ -6877,7 +6799,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 62.23 69.85 270)
+		(at 66.04 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6885,7 +6807,7 @@
 		(dnp no)
 		(uuid "00210388-34bd-4f88-8053-84488a72415f")
 		(property "Reference" "TP14"
-			(at 64.0588 71.3232 0)
+			(at 67.8688 71.3232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6816,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 62.9158 71.3232 0)
+			(at 66.7258 71.3232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6826,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 62.23 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 69.85 0)
+			(at 66.04 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 85.09 0)
+		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6953,7 +6875,7 @@
 		(fields_autoplaced yes)
 		(uuid "0252a8c1-0332-490a-a71c-9d0c021d09a5")
 		(property "Reference" "#PWR066"
-			(at 59.69 91.44 0)
+			(at 63.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,7 +6884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 90.17 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 85.09 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 85.09 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +6910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 85.09 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,6 +6992,76 @@
 			(project "proves-prime-mainboard-v1"
 				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0942fd4f-1a62-404f-b8fd-52ec86d08ae6")
+		(property "Reference" "D9"
+			(at 236.728 133.0325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 236.728 135.5725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55dd9cd-7d34-4e73-b267-1773c751296b")
+		)
+		(pin "2"
+			(uuid "064bbf76-ca7a-4a64-8a30-2473f567e4e8")
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7342,7 +7334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 135.89 0)
+		(at 201.93 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7351,7 +7343,7 @@
 		(fields_autoplaced yes)
 		(uuid "14e8dc47-8723-4e5b-86ad-2cafff9fd4b8")
 		(property "Reference" "#PWR013"
-			(at 201.93 142.24 0)
+			(at 201.93 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 140.97 0)
+			(at 201.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 135.89 0)
+			(at 201.93 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +7369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 135.89 0)
+			(at 201.93 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,7 +7378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 135.89 0)
+			(at 201.93 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 137.922 0)
+		(at 223.52 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7417,7 +7409,7 @@
 		(fields_autoplaced yes)
 		(uuid "159371af-c5cd-4fed-8466-b1d1135c7362")
 		(property "Reference" "#PWR019"
-			(at 223.52 144.272 0)
+			(at 223.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 143.002 0)
+			(at 223.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 137.922 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 137.922 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 137.922 0)
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,6 +7459,75 @@
 			(project "proves-prime-mainboard-v1"
 				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:RESISTOR0603")
+		(at 233.68 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1981668a-e83a-4158-aa27-88a96eadb436")
+		(property "Reference" "R38"
+			(at 235.204 120.65 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 231.394 120.65 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100K 0603"
+			(at 237.744 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cb51647-1902-4572-94f9-41a91e6e3dc6")
+		)
+		(pin "2"
+			(uuid "e48acdf3-78d2-498b-8574-a0529f71070a")
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8584,7 +8645,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 223.52 131.572 90)
+		(at 223.52 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8593,7 +8654,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f75c71a-b6ac-4f04-995f-ee6457d5c670")
 		(property "Reference" "D3"
-			(at 226.568 132.5245 90)
+			(at 226.568 133.0325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8663,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 226.568 135.0645 90)
+			(at 226.568 135.5725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8672,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 223.52 131.572 0)
+			(at 223.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 131.572 0)
+			(at 223.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 131.572 0)
+			(at 223.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,6 +9646,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:+3V3")
+		(at 233.68 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fe30f11-4031-4753-ba81-9b6fb41a2d88")
+		(property "Reference" "#+3V022"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 113.03 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd66715e-2207-42b1-a904-22d8f216335b")
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
+					(reference "#+3V022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:1.2V")
 		(at 120.142 24.13 0)
 		(unit 1)
@@ -9807,7 +9935,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:RESISTOR0603")
-		(at 223.52 120.142 270)
+		(at 223.52 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9815,7 +9943,7 @@
 		(dnp no)
 		(uuid "ace409d7-647d-4c2f-bb43-383cc4b2bdb6")
 		(property "Reference" "R6"
-			(at 225.044 120.142 0)
+			(at 225.044 120.65 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9824,7 +9952,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 229.87 116.84 0)
+			(at 221.488 120.904 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -9833,7 +9961,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.52 120.142 0)
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9842,7 +9970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 120.142 0)
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +9979,7 @@
 			)
 		)
 		(property "Description" "100K 0603"
-			(at 227.584 120.142 0)
+			(at 227.584 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +10071,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:SWITCH_TACT_SMT4.6X2.8")
-		(at 62.23 74.93 270)
+		(at 66.04 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9951,7 +10079,7 @@
 		(dnp no)
 		(uuid "b22492c4-f708-4910-ac06-6991dd54efd0")
 		(property "Reference" "SW2"
-			(at 62.23 81.28 90)
+			(at 66.04 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9960,7 +10088,7 @@
 			)
 		)
 		(property "Value" "KMR2"
-			(at 55.88 73.025 0)
+			(at 59.69 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -9969,7 +10097,7 @@
 			)
 		)
 		(property "Footprint" "FC_DEV_BOARD:BTN_KMR2_4.6X2.8"
-			(at 62.23 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 74.93 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11128,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:VBUS")
-		(at 223.52 107.442 0)
+		(at 223.52 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11008,7 +11136,7 @@
 		(dnp no)
 		(uuid "c87545f1-b375-4239-87c9-8805482db14e")
 		(property "Reference" "#U$06"
-			(at 223.52 107.442 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11145,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 221.996 106.426 0)
+			(at 221.996 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11026,7 +11154,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 223.52 107.442 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 107.442 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +11172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 107.442 0)
+			(at 223.52 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11408,7 +11536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 135.89 0)
+		(at 210.82 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11417,7 +11545,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9baf9ec-660b-441c-bdd4-9781381b4f0a")
 		(property "Reference" "#PWR014"
-			(at 210.82 142.24 0)
+			(at 210.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 140.97 0)
+			(at 210.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 135.89 0)
+			(at 210.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 135.89 0)
+			(at 210.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +11580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 135.89 0)
+			(at 210.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,6 +11861,71 @@
 			(project "proves-prime-mainboard-v1"
 				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4eeb521-cbc4-4802-a7c4-c9d0f02cead0")
+		(property "Reference" "#PWR071"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.934 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d64df7bf-e8e6-408a-827e-c222d49d2f68")
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6/b9e77bea-95cd-49e4-b487-cca512625802"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
