@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "a15903ce-d5b7-48a2-967e-1b48f2f83697")
+	(uuid "78c10e30-e422-4d8d-98eb-ed05ab6dea15")
 	(paper "A4")
 	(lib_symbols
 		(symbol "+3V3_1"
@@ -4346,6 +4346,12 @@
 		(uuid "ef322ba6-263c-46a5-a4ec-a77e9cbe8110")
 	)
 	(junction
+		(at 62.23 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd5bf0d-4571-4cd8-bbc7-029e483e5d11")
+	)
+	(junction
 		(at 171.831 34.163)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4566,6 +4572,16 @@
 			(type default)
 		)
 		(uuid "51b3b84c-36bb-4aed-bf65-c831d6d65c2e")
+	)
+	(wire
+		(pts
+			(xy 49.53 64.77) (xy 62.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5303058c-2574-4190-9472-3b28c21eb7b3")
 	)
 	(wire
 		(pts
@@ -6207,7 +6223,7 @@
 	)
 	(global_label "FC_RESET"
 		(shape bidirectional)
-		(at 62.23 64.77 180)
+		(at 49.53 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6217,7 +6233,7 @@
 		)
 		(uuid "e7dd72b7-d6b4-4036-b82d-0179fd67c3e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.1416 64.77 0)
+			(at 36.4416 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

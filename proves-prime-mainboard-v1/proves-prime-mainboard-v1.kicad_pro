@@ -410,6 +410,10 @@
     [
       "4ee91ab0-bac4-4a10-ac76-19282ead91f9",
       "Connectors"
+    ],
+    [
+      "ded12684-6472-4332-ac2b-a245bbb7447d",
+      "Watchdog"
     ]
   ],
   "text_variables": {}

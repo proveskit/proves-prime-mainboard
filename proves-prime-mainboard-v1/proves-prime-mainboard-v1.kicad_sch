@@ -211,6 +211,47 @@
 		)
 	)
 	(sheet
+		(at 127 139.7)
+		(size 39.37 21.59)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 88 255 116 1.0000)
+		)
+		(uuid "ded12684-6472-4332-ac2b-a245bbb7447d")
+		(property "Sheetname" "Watchdog"
+			(at 146.558 151.892 0)
+			(effects
+				(font
+					(face "Courier New")
+					(size 2.54 2.54)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 127 162.0524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 101.6)
 		(size 39.37 21.59)
 		(stroke
