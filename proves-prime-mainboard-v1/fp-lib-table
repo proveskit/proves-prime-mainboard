@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "additional libraries")(type "KiCad")(uri "${KIPRJMOD}/additional libraries/LT8610EMSE#TRPBF/footprints.pretty")(options "")(descr ""))
+)
