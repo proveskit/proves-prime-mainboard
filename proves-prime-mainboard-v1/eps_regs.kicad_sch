@@ -5190,7 +5190,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9af19af2-7e1a-4ad2-8268-c8d57bbc3bd5")
 		(property "Reference" "IC6"
 			(at 77.47 121.92 0)
