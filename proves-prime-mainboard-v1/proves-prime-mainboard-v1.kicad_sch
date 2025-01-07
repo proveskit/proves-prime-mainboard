@@ -181,7 +181,7 @@
 			(color 0 249 255 1.0000)
 		)
 		(uuid "b9e77bea-95cd-49e4-b487-cca512625802")
-		(property "Sheetname" "RP2040 Core"
+		(property "Sheetname" "PGA2350 Core"
 			(at 90.932 56.134 0)
 			(effects
 				(font
@@ -193,7 +193,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Sheetfile" "rp2040.kicad_sch"
+		(property "Sheetfile" "pga2350_core.kicad_sch"
 			(at 71.12 66.6246 0)
 			(effects
 				(font
