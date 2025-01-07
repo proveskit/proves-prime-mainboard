@@ -1746,7 +1746,7 @@
 	)
 	(text "MOLEX_105164-0001"
 		(exclude_from_sim no)
-		(at 21.59 46.99 90)
+		(at 20.32 45.974 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 50.546 31.9532 0)
+			(at 46.228 28.448 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 50.6476 39.9796 0)
+			(at 46.736 41.656 0)
 			(effects
 				(font
 					(size 1.778 1.778)
