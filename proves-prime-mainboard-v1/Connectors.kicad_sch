@@ -2650,7 +2650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FC_DEV_BOARD:JST_BM04B-SRSS-TB(LF)(SN) "
+		(property "Footprint" "FC_DEV_BOARD:JST_BM04B-SRSS-TB(LF)(SN)"
 			(at 83.82 38.1 0)
 			(effects
 				(font
