@@ -2081,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 53.34) (xy 38.1 53.34)
+			(xy 27.94 53.34) (xy 33.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 57.15 39.37)
+			(xy 33.02 39.37) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 130.81) (xy 54.61 130.81)
+			(xy 29.21 130.81) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2421,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 57.15 41.91)
+			(xy 49.53 41.91) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 133.35) (xy 54.61 133.35)
+			(xy 48.26 133.35) (xy 54.61 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2921,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 130.81) (xy 35.56 134.62)
+			(xy 29.21 130.81) (xy 29.21 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2951,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 38.1 53.34)
+			(xy 33.02 49.53) (xy 33.02 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3031,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 139.7) (xy 35.56 144.78)
+			(xy 29.21 139.7) (xy 29.21 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 38.1 43.18)
+			(xy 33.02 39.37) (xy 33.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 144.78) (xy 35.56 144.78)
+			(xy 25.4 144.78) (xy 29.21 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3769,7 @@
 		(uuid "6aa59b88-7c72-437f-9035-673db039b584")
 	)
 	(label "EN_5VReg"
-		(at 45.72 133.35 0)
+		(at 48.26 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3802,7 +3802,7 @@
 		(uuid "cd491613-1836-4d66-ae6b-f47ca22e8b49")
 	)
 	(label "En_3V3Reg"
-		(at 48.26 41.91 0)
+		(at 49.53 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3844,6 +3844,50 @@
 			(justify right bottom)
 		)
 		(uuid "fbb161fb-1ef3-44f6-a4df-059e9d4dc540")
+	)
+	(global_label "ENABLE_5V"
+		(shape input)
+		(at 48.26 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3454fcac-ba3d-49ee-8ca2-92c4e4b56d5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.9939 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENABLE_3V3"
+		(shape input)
+		(at 49.53 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd0197b7-e264-4436-b10b-e879c1238de9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.0544 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4410,7 +4454,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 35.56 137.16 0)
+		(at 29.21 137.16 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4419,7 +4463,7 @@
 		(dnp no)
 		(uuid "18b38bfa-570f-464c-aa6c-595f5431f6d0")
 		(property "Reference" "R2"
-			(at 33.02 135.8899 0)
+			(at 34.798 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4472,7 @@
 			)
 		)
 		(property "Value" "60.4k"
-			(at 33.02 138.4299 0)
+			(at 36.322 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4481,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4490,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4499,7 @@
 			)
 		)
 		(property "Description" "RT0402FRE0760K4L"
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4508,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4517,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4526,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4535,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4544,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 35.56 137.16 0)
+			(at 29.21 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5901,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 45.72 0)
+		(at 33.02 46.99 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5866,7 +5910,7 @@
 		(dnp no)
 		(uuid "4f639fdc-1a34-4825-beec-8588c522f428")
 		(property "Reference" "R7"
-			(at 35.56 44.4499 0)
+			(at 37.084 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5919,7 @@
 			)
 		)
 		(property "Value" "110k"
-			(at 35.56 46.9899 0)
+			(at 39.116 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5928,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5946,7 @@
 			)
 		)
 		(property "Description" "RT0402FRE07110KL"
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5955,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5964,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5973,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5982,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5991,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 38.1 45.72 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

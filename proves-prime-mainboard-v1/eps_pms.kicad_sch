@@ -2079,6 +2079,12 @@
 		(uuid "9e8be94c-b8e0-4c10-b099-d3b713fda63e")
 	)
 	(junction
+		(at 68.58 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acc7ece8-7966-415d-9835-54d1449ba236")
+	)
+	(junction
 		(at 146.05 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2135,6 +2141,16 @@
 			(type default)
 		)
 		(uuid "019b9b3e-71e9-48d2-9f54-03805b330827")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0335b357-69bf-4141-ae6b-06405a1a2fb5")
 	)
 	(wire
 		(pts
@@ -2325,16 +2341,6 @@
 			(type default)
 		)
 		(uuid "2a50bef8-1963-4578-92c0-7f350e9014c4")
-	)
-	(wire
-		(pts
-			(xy 68.58 62.23) (xy 68.58 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad25d73-04b9-426e-bfa5-a14408eb71ff")
 	)
 	(wire
 		(pts
@@ -3048,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 72.39) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72e3105-ba3e-479b-b63f-d7093b3b7cd2")
+	)
+	(wire
+		(pts
 			(xy 146.05 48.26) (xy 146.05 69.85)
 		)
 		(stroke
@@ -3373,9 +3389,9 @@
 		)
 		(uuid "d1f5b67b-9867-432f-9b66-1852a6e74679")
 	)
-	(global_label "CHRG'"
-		(shape input)
-		(at 68.58 72.39 180)
+	(global_label "~{CHARGE}"
+		(shape output)
+		(at 67.31 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3385,7 +3401,7 @@
 		)
 		(uuid "09e22ca4-aa1f-4c12-9613-847fe87544f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4217 72.3106 0)
+			(at 56.9467 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
