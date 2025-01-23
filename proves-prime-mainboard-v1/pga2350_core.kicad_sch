@@ -5520,6 +5520,16 @@
 		)
 		(uuid "79ae0be4-9a99-4981-8602-80b1ebc46ac7")
 	)
+	(polyline
+		(pts
+			(xy 194.31 73.66) (xy 284.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7b577d49-c7a8-4c5b-9950-5054a52c16e4")
+	)
 	(wire
 		(pts
 			(xy 115.57 66.04) (xy 115.57 59.69)
