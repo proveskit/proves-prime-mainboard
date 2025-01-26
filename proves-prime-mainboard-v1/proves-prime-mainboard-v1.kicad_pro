@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -614,6 +614,10 @@
     [
       "ea598aaa-c36c-4c0b-8580-74c9d55f8ae8",
       "Burnwire & Heater"
+    ],
+    [
+      "84b194bc-77fd-407c-a015-e765d02b16e0",
+      "Minimum Viable"
     ]
   ],
   "text_variables": {}

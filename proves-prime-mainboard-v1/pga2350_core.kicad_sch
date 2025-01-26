@@ -5212,16 +5212,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 95.25) (xy 201.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306ac666-b9d6-4b4c-9857-57baf3ab532c")
-	)
-	(wire
-		(pts
 			(xy 125.73 63.5) (xy 125.73 66.04)
 		)
 		(stroke
@@ -5242,6 +5232,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 83.82) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32257256-1d70-4bae-87bc-08b9fc625699")
+	)
+	(wire
+		(pts
 			(xy 219.71 40.64) (xy 219.71 38.1)
 		)
 		(stroke
@@ -5259,6 +5259,16 @@
 			(type default)
 		)
 		(uuid "34a6e9c6-9738-4602-b47d-7c1e20d5e0e3")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 218.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ba25dd-fc1c-4dea-b76d-701b7bd93234")
 	)
 	(polyline
 		(pts
@@ -5492,16 +5502,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 201.93 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "720fba70-dab5-4078-936b-37e7e2522998")
-	)
-	(wire
-		(pts
 			(xy 163.83 44.45) (xy 163.83 45.72)
 		)
 		(stroke
@@ -5509,6 +5509,16 @@
 			(type default)
 		)
 		(uuid "7962a185-e569-4c93-82be-f32390f2e907")
+	)
+	(wire
+		(pts
+			(xy 168.91 115.57) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79887fcd-3060-4a74-a098-73a804f1ea18")
 	)
 	(wire
 		(pts
@@ -5649,6 +5659,16 @@
 			(type default)
 		)
 		(uuid "9cd612d5-5a3b-40a2-8fd1-9b6b4b74335b")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7a2181-175a-4b6f-bc6c-8b9b598fa9c0")
 	)
 	(wire
 		(pts
@@ -5842,6 +5862,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3675f17-ff90-4cfd-a65a-b0f5bef23548")
+	)
+	(wire
+		(pts
 			(xy 128.27 57.15) (xy 128.27 66.04)
 		)
 		(stroke
@@ -5960,16 +5990,6 @@
 		)
 		(uuid "f96d361d-eaf7-4ab0-b2ee-b245ba5777d5")
 	)
-	(wire
-		(pts
-			(xy 227.33 105.41) (xy 227.33 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5f9de8-6217-46e9-b20d-3dc64974813d")
-	)
 	(text "Check if USBBOOT\nNeeds Pull Up"
 		(exclude_from_sim no)
 		(at 152.654 50.292 0)
@@ -5992,7 +6012,7 @@
 	)
 	(text "Status LEDs"
 		(exclude_from_sim no)
-		(at 234.188 77.978 0)
+		(at 239.522 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6130,7 +6150,7 @@
 			)
 		)
 	)
-	(global_label "WDT_WDI"
+	(global_label "RP2350_WDT_WDI"
 		(shape output)
 		(at 132.08 137.16 270)
 		(fields_autoplaced yes)
@@ -6143,7 +6163,7 @@
 		)
 		(uuid "24b9829d-acbf-41aa-9000-f91703a77a7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 148.128 90)
+			(at 132.08 156.4736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,6 +6261,28 @@
 			)
 		)
 	)
+	(global_label "FIRE_DEPLOY1_B"
+		(shape output)
+		(at 171.45 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a96436e-413a-4d89-b119-261a9d99e47b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.0985 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C0_SDA"
 		(shape bidirectional)
 		(at 168.91 120.65 0)
@@ -6285,6 +6327,28 @@
 			)
 		)
 	)
+	(global_label "READ_ANTENNAS"
+		(shape input)
+		(at 171.45 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ccf9bd0-d6f3-49d2-ba28-fb1e7e252c42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6752 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 97.79 85.09 180)
@@ -6325,6 +6389,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FIRE_DEPLOY1_A"
+		(shape output)
+		(at 171.45 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "820459bc-a411-4602-a14d-bb3bb8526b00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.9171 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6682,7 +6768,7 @@
 	)
 	(global_label "NEOPIX"
 		(shape input)
-		(at 219.71 114.3 270)
+		(at 205.74 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6692,7 +6778,7 @@
 		)
 		(uuid "ddba90e6-7cbe-418c-ad6c-9576d033d763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 124.1795 90)
+			(at 195.8605 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 105.41 0)
+		(at 218.44 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7729,7 +7815,7 @@
 		(fields_autoplaced yes)
 		(uuid "414bdde4-fa5d-4722-96e4-ec440ca36de9")
 		(property "Reference" "#PWR022"
-			(at 227.33 111.76 0)
+			(at 218.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,15 +7824,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 110.49 0)
+			(at 220.98 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 105.41 0)
+			(at 218.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 105.41 0)
+			(at 218.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 105.41 0)
+			(at 218.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8222,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 201.93 91.44 270)
+		(at 223.52 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8143,7 +8230,7 @@
 		(dnp no)
 		(uuid "678bb0b8-6393-454f-b624-646659ce16b8")
 		(property "Reference" "JP1"
-			(at 198.628 91.44 90)
+			(at 220.218 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8238,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 215.9 91.44 90)
+			(at 237.49 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +8247,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 201.93 91.44 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 91.44 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 91.44 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8628,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:WS2812B_SK6805_1515")
-		(at 217.17 101.6 90)
+		(at 218.44 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8549,7 +8636,7 @@
 		(dnp no)
 		(uuid "8eee1609-d99c-45d4-a834-69e81670cc8d")
 		(property "Reference" "LED1"
-			(at 217.17 101.6 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8645,7 @@
 			)
 		)
 		(property "Value" "WS2812B_SK6812_1515"
-			(at 217.17 101.6 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8654,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 217.17 101.6 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 101.6 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 101.6 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9383,7 @@
 	(symbol
 		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 201.93 86.36 0)
+		(at 223.52 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9305,7 +9392,7 @@
 		(fields_autoplaced yes)
 		(uuid "f03d43e3-4c6e-437e-a67b-52eb5993f713")
 		(property "Reference" "#PWR020"
-			(at 201.93 90.17 0)
+			(at 223.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9401,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 81.28 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 86.36 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 86.36 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 86.36 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

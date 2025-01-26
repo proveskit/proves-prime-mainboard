@@ -6247,7 +6247,7 @@
 			)
 		)
 	)
-	(global_label "FIRE_ANTENNAS_1"
+	(global_label "FIRE_DEPLOY1_A"
 		(shape input)
 		(at 34.29 157.48 180)
 		(fields_autoplaced yes)
@@ -6259,7 +6259,7 @@
 		)
 		(uuid "1bb0088a-5b89-4354-a6b3-3521f9caebd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6323 157.48 0)
+			(at 15.8229 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 			)
 		)
 	)
-	(global_label "FIRE_ANTENNAS_2"
+	(global_label "FIRE_DEPLOY1_B"
 		(shape input)
 		(at 34.29 161.29 180)
 		(fields_autoplaced yes)
@@ -6281,7 +6281,7 @@
 		)
 		(uuid "1df581e8-8fa6-45ea-8c6d-7fc0b79fff8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6323 161.29 0)
+			(at 15.6415 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6313,7 @@
 			)
 		)
 	)
-	(global_label "DEPLOY_ANTENNAS"
+	(global_label "DEPLOY1"
 		(shape output)
 		(at 158.75 152.4 0)
 		(fields_autoplaced yes)
@@ -6325,7 +6325,7 @@
 		)
 		(uuid "2c690e68-2bee-42e8-8d26-c4a1c59911c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2544 152.4 0)
+			(at 170.0809 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6442,7 @@
 			)
 		)
 	)
-	(global_label "READ_ANTENNAS"
+	(global_label "READ_DEPLOY1"
 		(shape output)
 		(at 116.84 168.91 180)
 		(fields_autoplaced yes)
@@ -6454,7 +6454,7 @@
 		)
 		(uuid "accfa8cf-8121-45d1-b743-b73b332fde48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6942 168.91 0)
+			(at 99.7639 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

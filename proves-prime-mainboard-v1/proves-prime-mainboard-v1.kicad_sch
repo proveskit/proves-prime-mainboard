@@ -5,8 +5,22 @@
 	(uuid "6cfe8c53-6734-42c5-b115-bce78073d1a6")
 	(paper "A4")
 	(lib_symbols)
+	(text "Satellite"
+		(exclude_from_sim no)
+		(at 146.05 40.894 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4db5d915-bdb5-4436-97ab-c030af439adc")
+	)
 	(sheet
-		(at 71.12 82.55)
+		(at 71.12 95.25)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -18,7 +32,7 @@
 		)
 		(uuid "0c8740d0-ba25-4f55-b34e-1d4ad698df64")
 		(property "Sheetname" "Radios"
-			(at 83.566 94.742 0)
+			(at 83.566 107.442 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -30,7 +44,7 @@
 			)
 		)
 		(property "Sheetfile" "radios.kicad_sch"
-			(at 71.12 104.7246 0)
+			(at 71.12 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +61,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 82.55)
+		(at 184.15 95.25)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -59,7 +73,7 @@
 		)
 		(uuid "4ee91ab0-bac4-4a10-ac76-19282ead91f9")
 		(property "Sheetname" "Connectors"
-			(at 193.294 94.488 0)
+			(at 193.294 107.188 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -71,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 184.15 104.7246 0)
+			(at 184.15 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,7 +102,7 @@
 		)
 	)
 	(sheet
-		(at 127 44.45)
+		(at 127 57.15)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -100,7 +114,7 @@
 		)
 		(uuid "72daa1d6-f37c-4e73-8163-622b1549228d")
 		(property "Sheetname" "Voltage Regs"
-			(at 146.558 56.642 0)
+			(at 146.558 69.342 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -112,7 +126,7 @@
 			)
 		)
 		(property "Sheetfile" "eps_regs.kicad_sch"
-			(at 127 66.8024 0)
+			(at 127 79.5024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +143,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 44.45)
+		(at 184.15 57.15)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -141,7 +155,7 @@
 		)
 		(uuid "73cdcc12-a328-423c-bb4c-0d95d09a55c6")
 		(property "Sheetname" " Power Management"
-			(at 203.2 56.642 0)
+			(at 203.2 69.342 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -153,7 +167,7 @@
 			)
 		)
 		(property "Sheetfile" "eps_pms.kicad_sch"
-			(at 184.15 66.8024 0)
+			(at 184.15 79.5024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +184,48 @@
 		)
 	)
 	(sheet
-		(at 71.12 44.45)
+		(at 127 26.67)
+		(size 39.37 21.59)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 99 164 255 1.0000)
+		)
+		(uuid "84b194bc-77fd-407c-a015-e765d02b16e0")
+		(property "Sheetname" "Minimum Viable"
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(face "Courier New")
+					(size 2.54 2.54)
+					(bold yes)
+					(color 0 0 0 0.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "mvs.kicad_sch"
+			(at 127 49.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proves-prime-mainboard-v1"
+				(path "/6cfe8c53-6734-42c5-b115-bce78073d1a6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 57.15)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -182,7 +237,7 @@
 		)
 		(uuid "b9e77bea-95cd-49e4-b487-cca512625802")
 		(property "Sheetname" "PGA2350 Core"
-			(at 90.932 56.134 0)
+			(at 90.932 68.834 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -194,7 +249,7 @@
 			)
 		)
 		(property "Sheetfile" "pga2350_core.kicad_sch"
-			(at 71.12 66.6246 0)
+			(at 71.12 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +266,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 119.38)
+		(at 100.33 132.08)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -223,7 +278,7 @@
 		)
 		(uuid "ded12684-6472-4332-ac2b-a245bbb7447d")
 		(property "Sheetname" "Watchdog"
-			(at 119.888 131.572 0)
+			(at 119.888 144.272 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -235,7 +290,7 @@
 			)
 		)
 		(property "Sheetfile" "watchdog.kicad_sch"
-			(at 100.33 141.7324 0)
+			(at 100.33 154.4324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +307,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 119.38)
+		(at 156.21 132.08)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -264,7 +319,7 @@
 		)
 		(uuid "ea598aaa-c36c-4c0b-8580-74c9d55f8ae8")
 		(property "Sheetname" "Burnwire & Heater"
-			(at 175.768 131.572 0)
+			(at 175.768 144.272 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -276,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "burn_heat.kicad_sch"
-			(at 156.21 141.7324 0)
+			(at 156.21 154.4324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +348,7 @@
 		)
 	)
 	(sheet
-		(at 127 82.55)
+		(at 127 95.25)
 		(size 39.37 21.59)
 		(stroke
 			(width 0.508)
@@ -305,7 +360,7 @@
 		)
 		(uuid "f7b52907-fa50-474e-ac68-9bcb2a24a34e")
 		(property "Sheetname" "Peripherals"
-			(at 135.636 94.742 0)
+			(at 135.636 107.442 0)
 			(effects
 				(font
 					(face "Courier New")
@@ -317,7 +372,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 127 104.7246 0)
+			(at 127 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

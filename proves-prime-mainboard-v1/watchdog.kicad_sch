@@ -5708,7 +5708,7 @@
 			)
 		)
 	)
-	(global_label "WDT_WDI"
+	(global_label "RP2350_WDT_WDI"
 		(shape input)
 		(at 83.82 124.46 180)
 		(fields_autoplaced yes)
@@ -5722,7 +5722,7 @@
 		)
 		(uuid "5af1908f-dfd4-4032-9ff8-1561da491640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.376 124.46 0)
+			(at 64.0304 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
